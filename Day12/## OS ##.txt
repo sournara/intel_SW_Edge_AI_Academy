@@ -1,0 +1,58 @@
+## OS ##
+. 가상화 기술 : 가상의 컴퓨터 (= 가상 머신)
+. 운영 체제를 설치 : Windows 10, Windows Server 2022, Linux
+. Linux 역사
+ - 1991년 리누스 토르발즈(Linus Torvalds) --> 0.01 --> 0.02 발표
+ - 리차드 스톨만 : FSF(자유 소프트웨어 연맹) 1985년... C 컴파일러~
+ - Open Source : 자유 --> 다운로드의 자유, 배포의 자유, 수정의 자유, 판매의 자유
+ - 커널 (Kernel) : 자동차의 엔진
+ - 배포판 : Redhat, Ubuntu, CentOS, Debian, Rocky......
+ - RHEL(상용) >> CentOS >> Rocky 9.x
+
+리눅스 기본 명령어
+- 사용자 : 관리자(root), 일반사용자(rocky)
+  사용자의 홈 디렉터리 (/home/사용자명), 관리자(/root)
+- 폴더 구조
+  C:\
+   /
+- cd : Change Directory. 디렉터리(=폴더) 이동
+  pwd : Print Working Directory. 현재 디렉터리 확인
+  ls : List. -l
+  .. : 앞 디렉터리
+  . : 현재 디렉터리
+  whoami : 현 사용자 확인
+  절대경로, 상대경로 :  /home/rocky
+  mkdir : Make Directory
+  rmdir : Remove Directory
+  rm -rf : 한방에 지우기
+  touch : 빈 파일 생성 or 생성시간을 현재로 변경
+  cp 소스 타겟 : Copy. -r 폴더 복사
+  mv 소스 타겟 : Move. 파일명 변경 or 파일 이동
+  rm -f : 파일 삭제
+  vi : Visual
+  cat : 파일 내용 확인
+  su - : 관리자로 접속
+  # : 관리자, $ : 일반사용자
+. 관리자 작업
+ - 새 사용자 생성 : useradd
+ - 사용자 제거 : userdel -r
+ - 사용자 비번 지정 : passwd 사용자명
+. su -사용자명 : 그 사용자로 접속
+. 설치 : dnf -y install 프로그램명
+
+* 자신의 방에 dir2/dir2-1/dir2-1-1 만들기
+** 퀴즈 : 
+   새 유저를 생성하기 (cuser)
+   새 유저가 코딩 폴더 만들기 (codeDir)
+   코딩 폴더에 두 숫자의 합계를 출력하는 코드 만들기. 그리고 실행.
+
+솔루션 >> 프로젝트 >> 소스코드
+(솔루션 == 프로젝트) >> 소스코드
+MS Office >> Word, Excel >> 메뉴 기능 하나씩
+
+** 퀴즈 : 점수를 1개 입력받고, A/B/C/D/F 학점 출력하기. (중첩 if)
+
+** 미션 3월 8일.
+- 리눅스 설치 (Server ~~~) : RAM 3GB, HDD 50GB
+- 리눅스에서 오늘 실습한 내용 코딩 및 결과 보기
+- (선택) 반복문 연습 : 1부터 100까지의 합계, 12345부터 67890까지 1398의 배수의 합계, 2부터 1000까지 소수의 합계

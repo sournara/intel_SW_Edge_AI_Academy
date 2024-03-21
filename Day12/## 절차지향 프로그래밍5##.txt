@@ -1,0 +1,50 @@
+## 절차지향 프로그래밍5##
+
+​
+
+**  퀴즈 : 블러링 (3x3) 짜리 구현...
+
+​
+
+​
+
+** 미션 3월15일 **
+
+- Gray Scale Image Processing (GA1) 완성
+
+  . 화소점 처리
+
+  . 기하학 처리
+
+  . 히스토그램 처리
+
+  . 화소 영역 처리 : 엠보싱, 블러링, 샤프닝 등
+  
+  . 경계선 검출 : 다양한 마스크 적용~~~
+
+​
+
+   <심화> 축소(평균값), 축소(중앙값), 확대(양선형 보간), 회전(확대), 회전(확대+양선형), 모핑
+
+              인터페이스 ==> 입력값 오류 처리(파일명 틀릴때, 입력값 체크...)
+
+      	      블러링 (9x9)
+
+   <심심화> 효과를 누적하기 , Ctrl+Z (취소하기)--> 메모리/디스크
+
+		블러링 시에 마스크 크기를 입력받기
+
+   <선택-심화> 리눅스 버전으로 컨버팅
+​
+
+김프(Gimp) <-->  포토샵 대등
+
+(1) 화소점 처리 : void equalImage(); void addImage(); void subImage(); void reverseImage(); void bwImage();
+void gamImage(); void CAPparaImage(); void CUPparaImage(); void avgbwImage(); void midbwImage();
+void stretchImage();  void posterImage(); void stressImage();
+
+(2) 기하학 처리 : void zoutImage(); void zinImage(); void zinImage2(); void rotImage(); void rotImage2(); void moveImage(); void mirrorLR(); void mirrorUD(); void mirrorALL();
+
+(3) 히스토그램 처리 : void histoStretch(); void endIn(); void histoEqual(); void emboss(); void blur(); void sharpning(); void hpfSharp(); void lpfSharp(); void smoothing();
+
+(4) 경계선 검출 : void edge1(); void edge2(); void edge3();

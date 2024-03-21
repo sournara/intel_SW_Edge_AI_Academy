@@ -1,0 +1,14 @@
+## 3월 21일 (객체지향 프로그래밍) ##
+
+GrayScale Image Processing (using Python)
+
+퀴즈 : win.ini를 읽어서 win2.txt에 쓰되...
+	(1) 각 행을 거꾸로 쓰기
+	(2) 모든 열도 거꾸로 쓰기
+	0=edo...
+	troppus ppa ...
+
+퀴즈 : [영상처리] >> [동일영상], [밝게하기]
+
+미션 : [GrayScale Image Processing] (Preview 1) 완성
+	C 언어용 ---> 파이썬용 + 보고서까지
